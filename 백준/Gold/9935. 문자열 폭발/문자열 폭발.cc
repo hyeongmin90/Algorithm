@@ -2,9 +2,8 @@
 
 using namespace std;
 
-stack<char> s;
-
 int main(){
+    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     string str, bomb;
     cin >> str >> bomb;
     string temp = "";
@@ -16,7 +15,6 @@ int main(){
                 temp.erase(temp.length() - bomb.length());
         }
     }
-
 
     if(temp.empty()) cout << "FRULA" << '\n';
     else cout << temp << '\n';
