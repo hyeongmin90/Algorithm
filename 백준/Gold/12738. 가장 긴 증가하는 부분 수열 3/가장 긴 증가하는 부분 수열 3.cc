@@ -2,7 +2,6 @@
 
 using namespace std;
 
-int arr[1000001];
 vector<int> v;
 
 int main(){
